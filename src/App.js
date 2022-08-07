@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />}>
             <Route path='profile' element={<Profile />}></Route>
@@ -18,7 +18,8 @@ function App() {
             <Route path='contact' element={<Contact />}></Route>
           </Route>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <Home />
     </div>
   );
 }
