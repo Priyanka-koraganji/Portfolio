@@ -1,0 +1,296 @@
+.App {
+  background-color: rgb(2, 17, 18);
+}
+
+/* nav bar */
+.navbar {
+  background-color: rgb(3, 50, 54);
+  padding: 1%;
+}
+
+.nav-link {
+  margin-left: 1%;
+  color: #73dddf;
+}
+
+.nav-brand {
+  font-weight: bold;
+}
+
+.nav-brand a:hover {
+  color: white;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: #73dddf;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.nav-container {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.me-auto {
+  position: absolute;
+  right: 1%;
+
+}
+
+/* about page */
+.about-page {
+  padding: 4%;
+  color: white;
+  display: flex;
+  background-color: rgb(3, 50, 54);
+}
+
+.about-page li {
+  list-style-type: circle;
+}
+
+.about-page>div {
+  width: 50%;
+}
+
+.about-heading {
+  margin-bottom: 4%;
+  color: #25edf0;
+}
+
+.tool-imgs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tool-imgs a {
+  margin: 30px;
+}
+
+/* profile page */
+.profile {
+  color: white;
+  padding: 44vh;
+  text-align: center;
+  line-height: 4vh;
+  width: 100%;
+  height: 100%;
+  /* background: #b7e8ea; */
+  background: url(./img/background.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 2000px 2000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.profile-header {
+  color: #73dddf;
+}
+
+.profile h6 {
+  font-weight: bold;
+}
+
+.profile button {
+  margin: 2% auto;
+  color: rgb(2, 17, 18);
+}
+
+.fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em rgb(2, 17, 18);
+  color: #73dddf;
+}
+
+/* project page */
+
+.projects-page {
+  margin: 3%;
+  color: white;
+}
+
+.projects-page h1 {
+  margin: 2% auto;
+  text-align: center;
+  color: #73dddf;
+}
+
+.project {
+  display: flex;
+}
+
+.project-brief {
+  padding: 3%;
+  margin: 5%;
+  background-color: #0f4c4e;
+  position: relative;
+  right: 20%;
+  border-radius: 6px;
+
+}
+
+.project-brief li {
+  list-style-type: circle;
+}
+
+.project-brief:hover {
+  box-shadow: rgba(136, 191, 188, 0.976) 6px 2px 16px 0px, rgba(136, 191, 188, 0.8) -6px -2px 16px 0px;
+}
+
+.project>div {
+  width: 50%;
+  padding: 1%;
+}
+
+.project-images img {
+  margin: 1% auto;
+  opacity: 0.7;
+}
+
+.project-images img:hover {
+  opacity: 1;
+}
+
+button {
+  padding: 0.5% 2%;
+  margin-right: 3%;
+  border-radius: 5px;
+  color: rgb(3, 50, 54);
+  background-color: #73dddf;
+  border: 1px solid #73dddf;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 0 0 0 2em rgb(2, 17, 18);
+}
+
+button a:hover,
+button a:focus {
+  color: #73dddf;
+  text-decoration: none;
+}
+
+/* Contact page */
+.contact-page h1,
+h6 {
+  text-align: center;
+  color: #73dddf;
+}
+
+.contact-page {
+  padding: 5% 20%;
+  color: white;
+  background-color: rgb(3, 50, 54);
+}
+
+.form {
+  background-color: #cdf1f2;
+}
+
+.submit-btn {
+  padding: 0.5% 2%;
+  margin-right: 3%;
+  border-radius: 5px;
+  color: rgb(3, 50, 54);
+  background-color: #73dddf;
+  border: 1px solid #73dddf;
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+  background-color: rgb(3, 50, 54);
+  color: #73dddf;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  color: #73dddf;
+  background: url(./img/background.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 2000px 2000px;
+}
+
+.footer h2 {
+  /* margin: 2%; */
+  padding-top: 4%;
+  padding-bottom: 1%;
+}
+
+.footer-icons {
+  padding-bottom: 5%;
+
+}
+
+.footer-icons a {
+  padding: 0.5%;
+}
+
+@media only screen and (max-width: 992px) {
+
+  /* profile page */
+  .profile {
+    padding: 9vh;
+    text-align: center;
+    line-height: 1vh;
+  }
+
+  .profile button {
+    padding: 2vh;
+  }
+
+  .profile-header {
+    margin: 5vh;
+  }
+
+  /* about page */
+  .about-page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-page>div {
+    width: 100%;
+  }
+
+  /* projects page */
+  .project {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project>div {
+    width: 100%;
+  }
+
+  .project-brief {
+    position: relative;
+    right: 0;
+  }
+
+  button {
+    padding: 0.5% 2%;
+    margin-left: 5%;
+    border-radius: 5px;
+    color: rgb(3, 50, 54);
+    background-color: #73dddf;
+    border: 1px solid #73dddf;
+  }
+}
