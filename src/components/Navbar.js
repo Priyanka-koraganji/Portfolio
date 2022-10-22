@@ -2,15 +2,17 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from "react-router-dom";
+
 
 
 export const Navigation = () => {
     return (
         <div>
-            <Navbar className='navbar' fixed="top">
+            <Navbar className='navbar'>
                 <Container className='nav-container'>
                     <Navbar.Brand href="#home" className='nav-brand'>
-                        <Nav.Link href="#home" color="#25edf0" className="nav-link">Priyanka</Nav.Link>
+                        <Nav.Link href="#home" color="#25edf0" className="nav-link">Priyanka Koraganji</Nav.Link>
                     </Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="#home" color="#25edf0" className="nav-link">Home</Nav.Link>

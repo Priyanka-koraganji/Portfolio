@@ -6,19 +6,20 @@ import { Profile } from './components/Profile';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />}>
+          <Route path='/' element={<Home />}></Route>
             <Route path='profile' element={<Profile />}></Route>
             <Route path='about' element={<About />}></Route>
             <Route path='projects' element={<Projects />}></Route>
             <Route path='contact' element={<Contact />}></Route>
-          </Route>
+            {/* <Route path="*" element={<Home />} /> */}  
         </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
       <Home />
     </div>
   );

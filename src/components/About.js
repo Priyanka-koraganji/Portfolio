@@ -1,52 +1,197 @@
 import React from 'react';
-import HTML from '../img/html.svg';
-import Bootstrap from '../img/bootstrap.svg';
-import Css from '../img/css3.svg';
-import Github from '../img/Github copy.svg';
-import JS from '../img/js.svg';
-import MongoDb from '../img/mongodb.png';
-import Node from '../img/node.jpg';
-import react from '../img/react.svg';
-import Redux from '../img/redux.svg';
-import Saas from '../img/saas.svg';
-import Sql from '../img/sql.svg';
-
+import Art1 from '../img/art1.jpg';
+import Art2 from '../img/art2.jpg';
+import Art3 from '../img/art4.jpg';
+import Art4 from '../img/art5.jpg';
+import Art5 from '../img/art6.jpg';
+import Art6 from '../img/art7.jpg';
+import Art7 from '../img/art8.jpg';
+import Art9 from '../img/Art9.jpg';
+import Travel from '../img/travel.jpg';
 
 export const About = () => {
     return (
         <div className='about-page' id="about">
-            <div>
-                <h2 className='about-heading'>About Me</h2>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.  </p>
-                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
-                <p>Things I enjoy doing other than Coding:</p>
-                <ul>
-                    <li>Painting</li>
-                    <li>Travelling</li>
-                    <li>Hiking</li>
-                    <li>Baking</li>
-                </ul>
+            <h2 className='about-heading'>Who I am</h2>
+            <div className='about-explore'>
+                <div>
 
+                    <p><span className="color">Experience and Explore….</span> It is all about experiencing and exploring
+                        something
+                        new.</p>
+                    <p> For me, life is living in the moment and enjoying the moment.</p>
+                    <p>I like to explore new places, cultures, and new tastes. Traveling
+                        to new places and spending time in nature brings out inner joy and peace. I like to capture the
+                        beauty
+                        and different colors of nature.</p>
+                </div>
+                <img src={Travel} className="travel-img" height="400px" alt="travel image"></img>
             </div>
-            <div>
-                <h2 className='about-heading'>Some of the Tools I Used</h2>
-                <div className='tool-imgs'>
-                    <a href="#"><img width="50px" height="50px" src={HTML} alt='html'></img></a>
-                    <a href="#"><img width="50px" height="50px" src={Css} alt='css'></img></a>
-                    <a href="#"><img width="50px" height="50px" src={JS} alt='javascript'></img></a>
-                    <a href="#"><img width="50px" height="50px" src={Bootstrap} alt='bootstrap'></img></a>
-                    <a href="#"><img width="50px" height="50px" src={Saas} alt='sass'></img></a>
-                    <a href="#"><img width="50px" height="50px" src={Node} alt='node'></img></a>
-                    <a href="#"><img width="50px" height="50px" src={Sql} alt='postgreSQL'></img></a>
-                    <a href="#"><img width="50px" height="50px" src={Github} alt='github'></img></a>
-                    <a href="#"><img width="50px" height="50px" src={MongoDb} alt='mongodb'></img></a>
-                    <a href="#"><img width="50px" height="50px" src={react} alt='react'></img></a>
-                    <a href="#"><img width="50px" height="50px" src={Redux} alt='react-redux'></img></a>
 
+            <div className="about-art">
+                <div className='about-colordes'>
+                    <img src={Art9} height="500px" width="30%"></img>
+                    <div>
+                        <p><span className="color">Color</span> is everything to me, especially in nature where I like to capture
+                            beauty through
+                            painting.</p>
+                        <p>In free time you can find me with a cup of coffee and painting.</p>
+                        <p>As a developer, I find inspiration in different art forms that can help me create exciting web pages,
+                            after all,
+                            there is a color to everything around us!</p>
+                        <p>Here are some of my paintings driven by my love for colors.</p>
+                    </div>
+
+                </div>
+                <div className="about-imgs">
+                    <div className='column'>
+                        <img className='item1' src={Art1} width="100%"></img>
+                        <img className='item2' src={Art2} width="100%"></img>
+                    </div>
+                    <div className='column'>
+                        <img className='item4' src={Art4} width="100%"></img>
+                    </div>
+                    <div className='column'>
+                        <img className='item3' src={Art3} width="100%"></img>
+                        {/* <img className='item5' src={Art5} height="150px"></img> */}
+                        <img className='item6' src={Art6} width="100%"></img>
+                    </div>
                 </div>
 
             </div>
+
+            <div className="about-background">
+                <h3>My Background</h3>
+                <p>I’m a full-stack web developer with a background in engineering. I worked as an Assistant professor in an
+                    Engineering college and mentored students with their different projects.</p>
+                <p> I developed excellent skills in
+                    active listening, understanding, researching, and resolving issues when facing technical problems within
+                    projects. I have gained great experience in coordinating and tracking the performance of other faculty
+                    members and introducing effective teaching plans to complete the course syllabus before examinations.
+                </p>
+            </div>
+
+            <div className="about-developer">
+                <h3>Turning into a web developer</h3>
+                <p>As an amateur artist, while looking at some art pages I got curious to learn the functionality of the web
+                    page. The visually attractive pages and challenging code inspired me to develop one for myself. My
+                    curiosity to learn new things adding a strong background in technical skills turned me into a software
+                    developer. It also satisfies my joy in solving problems and crafting useful, innovative things.
+                </p>
+            </div>
+
+            <p className="goals">Starting as a junior developer, I want to start with an employer where there are more chances
+                for learning
+                and creating things. I value respect, hard work, personal growth, financial independence, and a comfortable
+                income, and therefore reflect these attributes in my work and abilities. I’m looking for remote or hybrid
+                positions so that I can stay near my family and take care of my daughter. </p>
+            <button className='about-contact'><a href="#contact"> Get in touch</a></button>
+
+
+            <div className='tools'>
+                <h2 className='about-heading'>My Skills and Software</h2>
+                <p>I can build web sites and apps from concept, layout and interactive elements to backend/server-side and databases.</p>
+                <div className='tools-details'>
+                    <div className='frontend'>
+                        <h6>Frontend</h6>
+                        <ul>
+                            <li>Intuitive interfaces</li>
+                            <li>UX/UI (Personas, user stories, user flows)</li>
+                            <li>Responsive design, modals</li>
+                            <li>Accessible websites / -apps</li>
+                            <li>Progressive web applications</li>
+                            <li>Mobile Apps (React Native, Expo, PWA)</li>
+                            <li>Test- & Behavior-Driven-Development</li>
+                            <li>Continuous Integration / Delivery</li>
+                        </ul>
+                    </div>
+                    <div className='backend'>
+                        <h6>Backend</h6>
+                        <ul>
+                            <li>NodeJS & Express</li>
+                            <li>Creation and integration of APIs</li>
+                            <li>Hosting & Web Services (AWS, Google Firestore, Heroku, Netlify)</li>
+                            <li>Relational & non-relational databases (PostgreSQL, MongoDB)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div className='tool-imgs'>
+                    <div>
+                        <h6>Languages</h6>
+                        <div>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Typescript</p>
+                            <p>JavaScript</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h6>Frontend libraries & frameworks</h6>
+                        <div>
+                        <p>Bootstrap</p>
+                        <p>Jquery</p>
+                        <p>Angular</p>
+                        <p>Angular Material</p>
+                        <p>React</p>
+                        <p>React Redux</p>
+                        </div>
+                                
+                    </div>
+                    <div>
+                        <h6>Backend and other libraries</h6>
+                        <div>
+                        <p>Node JS</p>
+                        <p>CORS</p>
+                        <p>Axios</p>
+                        <p>Parcel</p>
+                        <p>serverless</p>
+                        <p>propTypes</p>
+                        <p>Recharts</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h6>Testing & QA</h6>
+                        <div>
+                            <p>Postman</p>
+                            <p>Jest</p>
+                            <p>Enzyme</p>
+                            <p>Cucumber</p>
+                            <p>Puppeteer</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h6>Documentation</h6>
+                        <div>
+                            <p>JSDoc</p>
+                            <p>TypeDoc</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h6>Web services & databases</h6>
+                        <div>
+                            <p>GitHub</p>
+                            <p>AWS</p>
+                            <p>MongoDb</p>
+                            <p>postgreSQL</p>
+                            <p>Goggle Firestore</p>
+                            <p>Heroku</p>
+                            <p>Netlify</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h6>Mobile Apps</h6>
+                        <div>
+                            <p>PWA</p>
+                            <p>React Native</p>
+                            <p>Android Studio</p>
+                            <p>Expo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+
     )
 }

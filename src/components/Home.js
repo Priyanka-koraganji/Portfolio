@@ -11,9 +11,8 @@ export const Home = () => {
         <div id="home">
             <Navigation />
             <Profile />
-            <About />
             <Projects />
-            <Contact />
+            <About />
             <Footer />
         </div>
     )
