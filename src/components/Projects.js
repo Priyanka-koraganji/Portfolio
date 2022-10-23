@@ -45,8 +45,8 @@ export const Projects = () => {
                         </ul>
 
                         <div className='project-btn'>
-                            <button><a href='https://github.com/Priyanka-koraganji/meet-project'>Github Repo</a></button>
-                            <button><a href='https://priyanka-koraganji.github.io/meet-project/'>Visit Site</a></button>
+                            <div><a href='https://github.com/Priyanka-koraganji/meet-project'>Github Repo</a></div>
+                            <div><a href='https://priyanka-koraganji.github.io/meet-project/'>Visit Site</a></div>
                         </div>
                     </div>
 
@@ -78,8 +78,8 @@ export const Projects = () => {
                         </ul>
 
                         <div className='project-btn'>
-                            <button><a href='https://github.com/Priyanka-koraganji/movies-app.git'>Github Repo</a></button>
-                            <button><a href='https://yourmoviescollection.herokuapp.com/'>Visit Site</a></button>
+                            <div><a href='https://github.com/Priyanka-koraganji/movies-app.git'>Github Repo</a></div>
+                            <div><a href='https://yourmoviescollection.herokuapp.com/'>Visit Site</a></div>
                         </div>
                     </div>
 
@@ -118,9 +118,9 @@ export const Projects = () => {
                         </ul>
 
                         <div className='project-btn'>
-                            <button><a href='https://github.com/Priyanka-koraganji/myFlix-client'>Github Repo</a></button>
-                            <button><a href='https://priyas-moviessite.netlify.app/'>Visit Site</a></button>
-                            <button><a href='https://priyanka-koraganji.github.io/Case-studies/movies.html'>Case Study</a> </button>
+                            <div><a href='https://github.com/Priyanka-koraganji/myFlix-client'>Github Repo</a></div>
+                            <div><a href='https://priyas-moviessite.netlify.app/'>Visit Site</a></div>
+                            <div><a href='https://priyanka-koraganji.github.io/Case-studies/movies.html'>Case Study</a> </div>
                         </div>
                     </div>
 
@@ -151,8 +151,8 @@ export const Projects = () => {
                         </ul>
 
                         <div className='project-btn'>
-                            <button><a href='https://github.com/Priyanka-koraganji/MyFlix-Angular.git'>Github Repo</a></button>
-                            <button><a href='https://priyanka-koraganji.github.io/MyFlix-Angular/'>Visit Site</a></button>
+                            <div><a href='https://github.com/Priyanka-koraganji/MyFlix-Angular.git'>Github Repo</a></div>
+                            <div><a href='https://priyanka-koraganji.github.io/MyFlix-Angular/'>Visit Site</a></div>
                         </div>
                     </div>
 
@@ -184,7 +184,7 @@ export const Projects = () => {
                             <li>IOS and Android simulators</li>
                         </ul>
                         <div className='project-btn'>
-                            <button><a href='https://github.com/Priyanka-koraganji/Chat-App.git'>Github Repo</a></button>
+                            <div><a href='https://github.com/Priyanka-koraganji/Chat-App.git'>Github Repo</a></div>
                         </div>
                     </div>
 
@@ -209,8 +209,8 @@ export const Projects = () => {
                         </ul>
 
                         <div className='project-btn'>
-                            <button><a href='https://github.com/Priyanka-koraganji/simple-js-app'>Github Repo</a></button>
-                            <button><a href='https://priyanka-koraganji.github.io/simple-js-app/'>Visit Site</a></button>
+                            <div><a href='https://github.com/Priyanka-koraganji/simple-js-app'>Github Repo</a></div>
+                            <div><a href='https://priyanka-koraganji.github.io/simple-js-app/'>Visit Site</a></div>
                         </div>
                     </div>
 
@@ -237,8 +237,8 @@ export const Projects = () => {
                         </ul>
 
                         <div className='project-btn'>
-                            <button><a href='https://github.com/Priyanka-koraganji/to-do-list-app'>Github Repo</a></button>
-                            <button><a href='https://priyanka-koraganji.github.io/to-do-list-app/'>Visit Site</a></button>
+                            <div><a href='https://github.com/Priyanka-koraganji/to-do-list-app'>Github Repo</a></div>
+                            <div><a href='https://priyanka-koraganji.github.io/to-do-list-app/'>Visit Site</a></div>
                         </div>
                     </div>
 

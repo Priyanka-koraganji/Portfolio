@@ -85,7 +85,7 @@ export const About = () => {
                 and creating things. I value respect, hard work, personal growth, financial independence, and a comfortable
                 income, and therefore reflect these attributes in my work and abilities. I’m looking for remote or hybrid
                 positions so that I can stay near my family and take care of my daughter. </p>
-            <button className='about-contact'><a href="#contact"> Get in touch</a></button>
+            <div className='about-contact'><a href="#contact"> Get in touch</a></div>
 
 
             <div className='tools'>
