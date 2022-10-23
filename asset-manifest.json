@@ -1,28 +1,21 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.d9855b5d.css",
-    "main.js": "/Portfolio/static/js/main.fde2dc61.js",
+    "main.js": "/Portfolio/static/js/main.4d107a8c.js",
     "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/Art9.jpg": "/Portfolio/static/media/Art9.de45e5f5ab718fc0f0f0.jpg",
     "static/media/art1.jpg": "/Portfolio/static/media/art1.5a3ebc907788d3397cc0.jpg",
     "static/media/Angular-movies.png": "/Portfolio/static/media/Angular-movies.b33d989ab1e0e35d19f5.png",
     "static/media/travel.jpg": "/Portfolio/static/media/travel.775c82e4e65c68804e2d.jpg",
-    "static/media/angular-dialog.png": "/Portfolio/static/media/angular-dialog.c62782bef7653d408dbc.png",
     "static/media/movies-app.png": "/Portfolio/static/media/movies-app.939c12bdbeb4018d2382.png",
     "static/media/chat-app.png": "/Portfolio/static/media/chat-app.c26b6fc93e08acb1aad8.png",
     "static/media/priya.JPG": "/Portfolio/static/media/priya.3be2540b666ef230153a.JPG",
-    "static/media/movies-list.png": "/Portfolio/static/media/movies-list.fe5b13c5d10cf04dd67e.png",
     "static/media/backend-api.png": "/Portfolio/static/media/backend-api.55420ad2bed64d338b5c.png",
     "static/media/art2.jpg": "/Portfolio/static/media/art2.832bae3db3b387acea88.jpg",
-    "static/media/art6.jpg": "/Portfolio/static/media/art6.800a0b765cfd96659cc0.jpg",
     "static/media/art7.jpg": "/Portfolio/static/media/art7.3978fd0dd84b3e6d2087.jpg",
-    "static/media/offline-chatApp.png": "/Portfolio/static/media/offline-chatApp.be3371f273e6ea166eee.png",
-    "static/media/art8.jpg": "/Portfolio/static/media/art8.b08d86153459d51ee7d0.jpg",
     "static/media/art5.jpg": "/Portfolio/static/media/art5.c872761438aadf3ef0ed.jpg",
     "static/media/art4.jpg": "/Portfolio/static/media/art4.3c23476be3bf084ad3da.jpg",
-    "static/media/userInfo-moviesApp.png": "/Portfolio/static/media/userInfo-moviesApp.237316de44b5016b9426.png",
     "static/media/Pokedox.png": "/Portfolio/static/media/Pokedox.3707a08401e118a8cea6.png",
-    "static/media/meetup-app.png": "/Portfolio/static/media/meetup-app.ef629d8b6783af53761b.png",
     "static/media/meetupLogin.png": "/Portfolio/static/media/meetupLogin.b2d33274631f9b8cce33.png",
     "static/media/purple-background.jpeg": "/Portfolio/static/media/purple-background.e2df881f68997c38ab23.jpeg",
     "static/media/Todo.png": "/Portfolio/static/media/Todo.86bdfe0c95ee35fc1de6.png",
@@ -33,11 +26,11 @@
     "static/media/medium.svg": "/Portfolio/static/media/medium.15d746fc863572d6a8c6102c84add69e.svg",
     "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.cdda1ba5dc53ce6aeda2970d90ad1134.svg",
     "main.d9855b5d.css.map": "/Portfolio/static/css/main.d9855b5d.css.map",
-    "main.fde2dc61.js.map": "/Portfolio/static/js/main.fde2dc61.js.map",
+    "main.4d107a8c.js.map": "/Portfolio/static/js/main.4d107a8c.js.map",
     "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d9855b5d.css",
-    "static/js/main.fde2dc61.js"
+    "static/js/main.4d107a8c.js"
   ]
 }
