@@ -1,15 +1,15 @@
 import React from 'react';
 import meetupLogin from '../img/meetupLogin.png';
-import meetupApp from '../img/meetup-app.png';
+// import meetupApp from '../img/meetup-app.png';
 import moviesApp from '../img/movies-app.png';
-import moviesUser from '../img/userInfo-moviesApp.png';
+// import moviesUser from '../img/userInfo-moviesApp.png';
 import Pokedox from '../img/Pokedox.png';
 import Todo from '../img/Todo.png';
 import BackendAPI from '../img/backend-api.png';
 import AngularMovies from '../img/Angular-movies.png';
-import angularDialog from '../img/angular-dialog.png';
-import MoviesList from '../img/movies-list.png';
-import OfflineChat from '../img/offline-chatApp.png';
+// import angularDialog from '../img/angular-dialog.png';
+// import MoviesList from '../img/movies-list.png';
+// import OfflineChat from '../img/offline-chatApp.png';
 import ChatApp from '../img/chat-app.png';
 
 

@@ -3,9 +3,9 @@ import Art1 from '../img/art1.jpg';
 import Art2 from '../img/art2.jpg';
 import Art3 from '../img/art4.jpg';
 import Art4 from '../img/art5.jpg';
-import Art5 from '../img/art6.jpg';
+// import Art5 from '../img/art6.jpg';
 import Art6 from '../img/art7.jpg';
-import Art7 from '../img/art8.jpg';
+// import Art7 from '../img/art8.jpg';
 import Art9 from '../img/Art9.jpg';
 import Travel from '../img/travel.jpg';
 
