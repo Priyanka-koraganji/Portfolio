@@ -3,9 +3,7 @@ import Art1 from '../img/art1.jpg';
 import Art2 from '../img/art2.jpg';
 import Art3 from '../img/art4.jpg';
 import Art4 from '../img/art5.jpg';
-// import Art5 from '../img/art6.jpg';
 import Art6 from '../img/art7.jpg';
-// import Art7 from '../img/art8.jpg';
 import Art9 from '../img/Art9.jpg';
 import Travel from '../img/travel.jpg';
 
@@ -25,12 +23,12 @@ export const About = () => {
                         beauty
                         and different colors of nature.</p>
                 </div>
-                <img src={Travel} className="travel-img" height="400px" alt="travel image"></img>
+                <img src={Travel} className="travel-img" height="400px" alt="travel"></img>
             </div>
 
             <div className="about-art">
                 <div className='about-colordes'>
-                    <img src={Art9} height="500px" width="30%"></img>
+                    <img src={Art9} width="30%" alt="art"></img>
                     <div>
                         <p><span className="color">Color</span> is everything to me, especially in nature where I like to capture
                             beauty through
@@ -45,16 +43,15 @@ export const About = () => {
                 </div>
                 <div className="about-imgs">
                     <div className='column'>
-                        <img className='item1' src={Art1} width="100%"></img>
-                        <img className='item2' src={Art2} width="100%"></img>
+                        <img className='item1' src={Art1} alt="abstract"></img>
+                        <img className='item2' src={Art2}  alt="landscape" width="100%"></img>
                     </div>
                     <div className='column'>
-                        <img className='item4' src={Art4} width="100%"></img>
+                        <img className='item4' src={Art4}  alt="ganesh" width="100%"></img>
                     </div>
                     <div className='column'>
-                        <img className='item3' src={Art3} width="100%"></img>
-                        {/* <img className='item5' src={Art5} height="150px"></img> */}
-                        <img className='item6' src={Art6} width="100%"></img>
+                        <img className='item3' src={Art3}  alt="landscape" width="100%"></img>
+                        <img className='item6' src={Art6}  alt="landscape" width="100%"></img>
                     </div>
                 </div>
 
@@ -85,36 +82,12 @@ export const About = () => {
                 and creating things. I value respect, hard work, personal growth, financial independence, and a comfortable
                 income, and therefore reflect these attributes in my work and abilities. I’m looking for remote or hybrid
                 positions so that I can stay near my family and take care of my daughter. </p>
-            <div className='about-contact'><a href="#contact"> Get in touch</a></div>
+            <div className='about-contact'><a target="_blank"  rel="noopener noreferrer"  href="#contact"> Get in touch</a></div>
 
 
             <div className='tools'>
                 <h2 className='about-heading'>My Skills and Software</h2>
                 <p>I can build web sites and apps from concept, layout and interactive elements to backend/server-side and databases.</p>
-                <div className='tools-details'>
-                    <div className='frontend'>
-                        <h6>Frontend</h6>
-                        <ul>
-                            <li>Intuitive interfaces</li>
-                            <li>UX/UI (Personas, user stories, user flows)</li>
-                            <li>Responsive design, modals</li>
-                            <li>Accessible websites / -apps</li>
-                            <li>Progressive web applications</li>
-                            <li>Mobile Apps (React Native, Expo, PWA)</li>
-                            <li>Test- & Behavior-Driven-Development</li>
-                            <li>Continuous Integration / Delivery</li>
-                        </ul>
-                    </div>
-                    <div className='backend'>
-                        <h6>Backend</h6>
-                        <ul>
-                            <li>NodeJS & Express</li>
-                            <li>Creation and integration of APIs</li>
-                            <li>Hosting & Web Services (AWS, Google Firestore, Heroku, Netlify)</li>
-                            <li>Relational & non-relational databases (PostgreSQL, MongoDB)</li>
-                        </ul>
-                    </div>
-                </div>
 
                 <div className='tool-imgs'>
                     <div>

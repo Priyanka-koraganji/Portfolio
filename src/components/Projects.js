@@ -1,15 +1,10 @@
 import React from 'react';
 import meetupLogin from '../img/meetupLogin.png';
-// import meetupApp from '../img/meetup-app.png';
 import moviesApp from '../img/movies-app.png';
-// import moviesUser from '../img/userInfo-moviesApp.png';
 import Pokedox from '../img/Pokedox.png';
 import Todo from '../img/Todo.png';
 import BackendAPI from '../img/backend-api.png';
 import AngularMovies from '../img/Angular-movies.png';
-// import angularDialog from '../img/angular-dialog.png';
-// import MoviesList from '../img/movies-list.png';
-// import OfflineChat from '../img/offline-chatApp.png';
 import ChatApp from '../img/chat-app.png';
 
 
@@ -19,10 +14,6 @@ export const Projects = () => {
             <h1>Some of my Projects</h1>
 
             <div className='meet-app project'>
-                <div className='project-images'>
-                    <img src={meetupLogin} width="100%" alt="meet-up login page"></img>
-                    {/* <img src={meetupApp} width="100%" alt="meet-up login page"></img> */}
-                </div>
                 <div>
                     <h3>Meet-Up App</h3>
                     <div className='project-brief'>
@@ -45,11 +36,14 @@ export const Projects = () => {
                         </ul>
 
                         <div className='project-btn'>
-                            <div><a href='https://github.com/Priyanka-koraganji/meet-project'>Github Repo</a></div>
-                            <div><a href='https://priyanka-koraganji.github.io/meet-project/'>Visit Site</a></div>
+                            <div><a target="_blank"  rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/meet-project'>Github Repo</a></div>
+                            <div><a target="_blank"  rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/meet-project/'>Visit Site</a></div>
                         </div>
                     </div>
 
+                </div>
+                <div className='project-images'>
+                    <img src={meetupLogin} alt="meet-up login page"></img>
                 </div>
             </div>
 
@@ -78,23 +72,20 @@ export const Projects = () => {
                         </ul>
 
                         <div className='project-btn'>
-                            <div><a href='https://github.com/Priyanka-koraganji/movies-app.git'>Github Repo</a></div>
-                            <div><a href='https://yourmoviescollection.herokuapp.com/'>Visit Site</a></div>
+                            <div><a target="_blank"  rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/movies-app.git'>Github Repo</a></div>
+                            <div><a target="_blank"  rel="noopener noreferrer" href='https://yourmoviescollection.herokuapp.com/'>Visit Site</a></div>
                         </div>
                     </div>
 
                 </div>
                 <div className='project-images'>
-                    <img className='api-img' src={BackendAPI} width="100%" alt="mongoDB collections"></img>
+                    <img className='api-img' src={BackendAPI} alt="mongoDB collections"></img>
                     {/* <img className='api-img' src={MoviesList} width="100%" alt="mongoDB collections"></img> */}
                 </div>
             </div>
 
             <div className='movies-app project'>
-                <div className='project-images'>
-                    <img className='img' src={moviesApp} width="100%" alt="movies app"></img>
-                    {/* <img className='img' src={moviesUser} width="100%" alt="movies app"></img> */}
-                </div>
+               
                 <div>
                     <h3>Movies App</h3>
                     <div className='project-brief'>
@@ -103,9 +94,9 @@ export const Projects = () => {
                             React, and Node.js) stack and even Redux. This web application will provide users with access to
                             information about different
                             movies, directors, and genres. Users will be able to sign up, update their
-                            personal information, and create a list of their favorite movies. Checkout the Backend Code on 
-                            <a className="git-link" href='https://github.com/Priyanka-koraganji/movies-app'>Github</a>
-                        </p>
+                            personal information, and create a list of their favorite movies. You can also check the website using login credentials Username:"Srini" and Password:"srini123" </p>
+                            <p>Checkout the Backend Code on 
+                            <a className="git-link" href='https://github.com/Priyanka-koraganji/movies-app'>Github</a></p>
                         <p>Tools Used:</p>
                         <ul>
                             <li>React</li>
@@ -118,12 +109,16 @@ export const Projects = () => {
                         </ul>
 
                         <div className='project-btn'>
-                            <div><a href='https://github.com/Priyanka-koraganji/myFlix-client'>Github Repo</a></div>
-                            <div><a href='https://priyas-moviessite.netlify.app/'>Visit Site</a></div>
-                            <div><a href='https://priyanka-koraganji.github.io/Case-studies/movies.html'>Case Study</a> </div>
+                            <div><a target="_blank"  rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/myFlix-client'>Github Repo</a></div>
+                            <div><a target="_blank"  rel="noopener noreferrer" href='https://priyas-moviessite.netlify.app/'>Visit Site</a></div>
+                            <div><a target="_blank"  rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/Case-studies/movies.html'>Case Study</a> </div>
                         </div>
                     </div>
 
+                </div>
+                <div className='project-images'>
+                    <img className='img' src={moviesApp} alt="movies app"></img>
+                    {/* <img className='img' src={moviesUser} width="100%" alt="movies app"></img> */}
                 </div>
             </div>
 
@@ -137,8 +132,8 @@ export const Projects = () => {
                             application will provide users with access to information about different
                             movies, directors, and genres. Users will be able to sign up, register, update their
                             personal information, view data about the movies as well as create a list of their favorite
-                            movies.</p>
-                        <p>Checkout the Backend Code on <a
+                            movies. You can also check the website using login credentials Username:"Srini" and Password:"srini123" </p>
+                        <p>Checkout the Backend Code on <a target="_blank"  rel="noopener noreferrer"
                             href='https://github.com/Priyanka-koraganji/movies-app'>Github</a> </p>
                         <p>Tools and Technologies Used:</p>
                         <ul>
@@ -151,23 +146,20 @@ export const Projects = () => {
                         </ul>
 
                         <div className='project-btn'>
-                            <div><a href='https://github.com/Priyanka-koraganji/MyFlix-Angular.git'>Github Repo</a></div>
-                            <div><a href='https://priyanka-koraganji.github.io/MyFlix-Angular/'>Visit Site</a></div>
+                            <div><a target="_blank"  rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/MyFlix-Angular.git'>Github Repo</a></div>
+                            <div><a target="_blank"  rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/MyFlix-Angular/'>Visit Site</a></div>
                         </div>
                     </div>
 
                 </div>
                 <div className='project-images'>
-                    <img src={AngularMovies} width="100%" alt="movies app"></img>
+                    <img src={AngularMovies} alt="movies app"></img>
                     {/* <img src={angularDialog} width="100%" alt="movies app"></img> */}
                 </div>
             </div>
 
             <div className='chat-app project'>
-                <div className='project-images chat-images'>
-                    <img src={ChatApp} width="100%" alt="movies app"></img>
-                    {/* <img src={OfflineChat} width="100%" margin-left="20px" alt="movies app"></img> */}
-                </div>
+                
                 <div>
                     <h3>Chat App</h3>
                     <div className='project-brief'>
@@ -184,13 +176,16 @@ export const Projects = () => {
                             <li>IOS and Android simulators</li>
                         </ul>
                         <div className='project-btn'>
-                            <div><a href='https://github.com/Priyanka-koraganji/Chat-App.git'>Github Repo</a></div>
+                            <div><a target="_blank"  rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/Chat-App.git'>Github Repo</a></div>
                         </div>
                     </div>
 
 
                 </div>
-
+                <div className='project-images chat-images'>
+                    <img src={ChatApp} alt="movies app"></img>
+                    {/* <img src={OfflineChat} width="100%" margin-left="20px" alt="movies app"></img> */}
+                </div>
             </div>
 
             <div className='pokedox-app project'>
@@ -209,20 +204,18 @@ export const Projects = () => {
                         </ul>
 
                         <div className='project-btn'>
-                            <div><a href='https://github.com/Priyanka-koraganji/simple-js-app'>Github Repo</a></div>
-                            <div><a href='https://priyanka-koraganji.github.io/simple-js-app/'>Visit Site</a></div>
+                            <div><a target="_blank"  rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/simple-js-app'>Github Repo</a></div>
+                            <div><a target="_blank"  rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/simple-js-app/'>Visit Site</a></div>
                         </div>
                     </div>
 
                 </div>
                 <div className='project-images'>
-                    <img className='poke-img' src={Pokedox} width="100%" alt=""></img>
+                    <img className='poke-img' src={Pokedox} alt=""></img>
                 </div>
             </div>
             <div className='todo project'>
-                <div className='project-images'>
-                    <img src={Todo} width="100%" alt=""></img>
-                </div>
+               
                 <div>
                     <h3>ToDo App</h3>
                     <div className='project-brief'>
@@ -237,11 +230,14 @@ export const Projects = () => {
                         </ul>
 
                         <div className='project-btn'>
-                            <div><a href='https://github.com/Priyanka-koraganji/to-do-list-app'>Github Repo</a></div>
-                            <div><a href='https://priyanka-koraganji.github.io/to-do-list-app/'>Visit Site</a></div>
+                            <div><a target="_blank"  rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/to-do-list-app'>Github Repo</a></div>
+                            <div><a target="_blank"  rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/to-do-list-app/'>Visit Site</a></div>
                         </div>
                     </div>
 
+                </div>
+                <div className='project-images'>
+                    <img src={Todo} width="100%" alt=""></img>
                 </div>
             </div>
         </div>

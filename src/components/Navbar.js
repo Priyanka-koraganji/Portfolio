@@ -13,7 +13,7 @@ export const Navigation = () => {
             <Navbar className='navbar' expand="lg">
                 <Container className='nav-container'>
                     <Navbar.Brand href="#home" className='nav-brand'>Priyanka Koraganji</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Toggle className="toggle-bar" aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link href="#home" color="#25edf0" className="nav-link">Home</Nav.Link>
