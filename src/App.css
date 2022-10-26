@@ -1312,7 +1312,7 @@ h6 {
   .about-explore, .about-background, .about-colordes, .about-developer, .goals, .tools, .tools p{
     font-size: 1rem;
   }
-  .about-heading, .about-background, .about-developer{
+  .about-heading, .about-background h3, .about-developer h3{
     font-size: 1.5rem;
   }
   .footer-page h2{
