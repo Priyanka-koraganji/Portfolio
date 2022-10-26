@@ -247,7 +247,7 @@
 }
 
 .about-contact {
-  width: 300px;
+  width: 20vh;
   margin: 2% auto;
   font-weight: bold;
   color: whitesmoke;
@@ -402,7 +402,7 @@ h6 {
 
 .project img:hover {
   opacity: 1;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .project-links {
@@ -546,7 +546,7 @@ h6 {
   /* project page */
 
   .projects-page {
-    padding:5vh;
+    padding: 5vh;
     color: rgb(48, 47, 47);
   }
 
@@ -591,12 +591,14 @@ h6 {
   }
 
   .project img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
-  .project-btn div{
+
+  .project-btn div {
     font-weight: 100;
     font-size: 1rem;
   }
+
   /* about page */
 
   .about-page {
@@ -814,7 +816,7 @@ h6 {
   /* project page */
 
   .projects-page {
-    padding:5vh;
+    padding: 5vh;
     color: rgb(48, 47, 47);
   }
 
@@ -864,10 +866,12 @@ h6 {
   .project img:hover {
     transform: scale(1.1);
   }
-  .project-btn div{
+
+  .project-btn div {
     font-weight: 100;
     font-size: 1rem;
   }
+
   .about-page {
     /* margin:0 20vh; */
     padding: 5vh 5vh;
@@ -1130,10 +1134,12 @@ h6 {
   .project img:hover {
     transform: scale(1.1);
   }
-  .project-btn div{
+
+  .project-btn div {
     font-weight: 100;
     font-size: 1rem;
   }
+
   .about-page {
     /* margin:0 20vh; */
     padding: 5vh 5vh;
@@ -1289,4 +1295,27 @@ h6 {
   }
 
 
+}
+@media only screen and (max-width: 400px) {
+  .projects-page h1{
+    font-size: 1.5rem;
+  }
+  .projects-page h3{
+    font-size:1.25rem;
+  }
+  .project{
+    font-size: 1rem;
+  }
+  .project-btn div{
+    font-size: 0.8rem;
+  }
+  .about-explore, .about-background, .about-colordes, .about-developer, .goals, .tools, .tools p{
+    font-size: 1rem;
+  }
+  .about-heading, .about-background, .about-developer{
+    font-size: 1.5rem;
+  }
+  .footer-page h2{
+    font-size: 1.5rem;
+  }
 }
