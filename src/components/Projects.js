@@ -133,7 +133,7 @@ export const Projects = () => {
                             movies, directors, and genres. Users will be able to sign up, register, update their
                             personal information, view data about the movies as well as create a list of their favorite
                             movies. You can also check the website using login credentials Username:"Srini" and Password:"srini123" </p>
-                        <p>Checkout the Backend Code on <a target="_blank"  rel="noopener noreferrer"
+                        <p>Checkout the Backend Code on <a target="_blank"  rel="noopener noreferrer"  className="git-link"
                             href='https://github.com/Priyanka-koraganji/movies-app'>Github</a> </p>
                         <p>Tools and Technologies Used:</p>
                         <ul>

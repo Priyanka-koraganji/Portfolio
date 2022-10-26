@@ -23,7 +23,7 @@ export const About = () => {
                         beauty
                         and different colors of nature.</p>
                 </div>
-                <img src={Travel} className="travel-img" height="400px" alt="travel"></img>
+                <img src={Travel} className="travel-img" alt="travel"></img>
             </div>
 
             <div className="about-art">
