@@ -111,6 +111,7 @@
 
 .fill a {
   text-decoration: none;
+  color: whitesmoke;
 }
 
 .fill a:visited {
@@ -268,6 +269,7 @@
 
 .about-contact a {
   text-decoration: none;
+  color: whitesmoke;
 }
 
 .about-contact a:visited {
@@ -444,6 +446,7 @@ h6 {
 
 .project-btn a {
   text-decoration: none;
+  color: whitesmoke;
 }
 
 
@@ -1296,26 +1299,41 @@ h6 {
 
 
 }
+
 @media only screen and (max-width: 400px) {
-  .projects-page h1{
+  .projects-page h1 {
     font-size: 1.5rem;
   }
-  .projects-page h3{
-    font-size:1.25rem;
+
+  .projects-page h3 {
+    font-size: 1.25rem;
   }
-  .project{
+
+  .project {
     font-size: 1rem;
   }
-  .project-btn div{
+
+  .project-btn div {
     font-size: 0.8rem;
   }
-  .about-explore, .about-background, .about-colordes, .about-developer, .goals, .tools, .tools p{
+
+  .about-explore,
+  .about-background,
+  .about-colordes,
+  .about-developer,
+  .goals,
+  .tools,
+  .tools p {
     font-size: 1rem;
   }
-  .about-heading, .about-background h3, .about-developer h3{
+
+  .about-heading,
+  .about-background h3,
+  .about-developer h3 {
     font-size: 1.5rem;
   }
-  .footer-page h2{
+
+  .footer-page h2 {
     font-size: 1.5rem;
   }
 }
