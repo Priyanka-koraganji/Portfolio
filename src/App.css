@@ -43,8 +43,7 @@
 }
 
 .me-auto {
-  position: absolute;
-  right: 5%;
+  text-align: right;
 }
 
 /* profile page */
@@ -500,10 +499,10 @@ h6 {
     padding: 5%;
   }
 
-  .toggle-bar {
+  /* .toggle-bar {
     position: absolute;
     right: 5%;
-  }
+  } */
 
   /* profile */
   .profile {
@@ -755,10 +754,10 @@ h6 {
     padding: 5%;
   }
 
-  .toggle-bar {
+  /* .toggle-bar {
     position: absolute;
     right: 5%;
-  }
+  } */
 
   /* profile */
   .profile {
@@ -1035,10 +1034,10 @@ h6 {
     padding: 5%;
   }
 
-  .toggle-bar {
+  /* .toggle-bar {
     position: absolute;
     right: 5%;
-  }
+  } */
 
   /* profile */
   .profile {

@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+// import Brand from '../img/favicon-16x16.png';
 
 
 
@@ -12,7 +13,7 @@ export const Navigation = () => {
         <div>
             <Navbar className='navbar' expand="lg">
                 <Container className='nav-container'>
-                    <Navbar.Brand href="#home" className='nav-brand'>Priyanka Koraganji</Navbar.Brand>
+                    <Navbar.Brand href="#home" className='nav-brand'>P K</Navbar.Brand>
                     <Navbar.Toggle className="toggle-bar" aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">

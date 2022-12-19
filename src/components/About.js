@@ -44,14 +44,14 @@ export const About = () => {
                 <div className="about-imgs">
                     <div className='column'>
                         <img className='item1' src={Art1} alt="abstract"></img>
-                        <img className='item2' src={Art2}  alt="landscape" width="100%"></img>
+                        <img className='item2' src={Art2} alt="landscape" width="100%"></img>
                     </div>
                     <div className='column'>
-                        <img className='item4' src={Art4}  alt="ganesh" width="100%"></img>
+                        <img className='item4' src={Art4} alt="ganesh" width="100%"></img>
                     </div>
                     <div className='column'>
-                        <img className='item3' src={Art3}  alt="landscape" width="100%"></img>
-                        <img className='item6' src={Art6}  alt="landscape" width="100%"></img>
+                        <img className='item3' src={Art3} alt="landscape" width="100%"></img>
+                        <img className='item6' src={Art6} alt="landscape" width="100%"></img>
                     </div>
                 </div>
 
@@ -82,7 +82,7 @@ export const About = () => {
                 and creating things. I value respect, hard work, personal growth, financial independence, and a comfortable
                 income, and therefore reflect these attributes in my work and abilities. I’m looking for remote or hybrid
                 positions so that I can stay near my family and take care of my daughter. </p>
-            <div className='about-contact'><a target="_blank"  rel="noopener noreferrer"  href="#contact"> Get in touch</a></div>
+            <div className='about-contact'><a rel="noopener noreferrer" href="#contact"> Get in touch</a></div>
 
 
             <div className='tools'>
@@ -102,25 +102,25 @@ export const About = () => {
                     <div>
                         <h6>Frontend libraries & frameworks</h6>
                         <div>
-                        <p>Bootstrap</p>
-                        <p>Jquery</p>
-                        <p>Angular</p>
-                        <p>Angular Material</p>
-                        <p>React</p>
-                        <p>React Redux</p>
+                            <p>Bootstrap</p>
+                            <p>Jquery</p>
+                            <p>Angular</p>
+                            <p>Angular Material</p>
+                            <p>React</p>
+                            <p>React Redux</p>
                         </div>
-                                
+
                     </div>
                     <div>
                         <h6>Backend and other libraries</h6>
                         <div>
-                        <p>Node JS</p>
-                        <p>CORS</p>
-                        <p>Axios</p>
-                        <p>Parcel</p>
-                        <p>serverless</p>
-                        <p>propTypes</p>
-                        <p>Recharts</p>
+                            <p>Node JS</p>
+                            <p>CORS</p>
+                            <p>Axios</p>
+                            <p>Parcel</p>
+                            <p>serverless</p>
+                            <p>propTypes</p>
+                            <p>Recharts</p>
                         </div>
                     </div>
                     <div>
