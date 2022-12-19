@@ -44,6 +44,8 @@
 
 .me-auto {
   text-align: right;
+  position: relative;
+  left: 65%;
 }
 
 /* profile page */
@@ -499,10 +501,10 @@ h6 {
     padding: 5%;
   }
 
-  /* .toggle-bar {
-    position: absolute;
-    right: 5%;
-  } */
+  .me-auto {
+    position: relative;
+   left:0%;
+  }
 
   /* profile */
   .profile {
@@ -754,10 +756,10 @@ h6 {
     padding: 5%;
   }
 
-  /* .toggle-bar {
-    position: absolute;
-    right: 5%;
-  } */
+  .me-auto {
+    position: relative;
+    left:0%;
+  }
 
   /* profile */
   .profile {
@@ -1034,10 +1036,10 @@ h6 {
     padding: 5%;
   }
 
-  /* .toggle-bar {
-    position: absolute;
-    right: 5%;
-  } */
+  .me-auto {
+    position: relative;
+    left:0%;
+  }
 
   /* profile */
   .profile {
@@ -1300,6 +1302,12 @@ h6 {
 }
 
 @media only screen and (max-width: 400px) {
+
+  .me-auto{
+    position: relative;
+    left:0%;
+  }
+
   .projects-page h1 {
     font-size: 1.5rem;
   }
