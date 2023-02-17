@@ -15,7 +15,7 @@ export const Projects = () => {
             <div className='myFlix-api project'>
 
                 <div>
-                    <h3>MyFlix API</h3>
+                    <h3>Movies API</h3>
                     <div className='project-brief'>
                         <p>Its a Server side application. This web application will provide users with access to information
                             about different
@@ -52,7 +52,7 @@ export const Projects = () => {
             <div className='movies-app project'>
 
                 <div>
-                    <h3>Movies App</h3>
+                    <h3>MyFlix App</h3>
                     <div className='project-brief'>
                         <p>Its a complete web application (client-side and server-side)
                             built using full-stack JavaScript technologies. The tech stack used is MERN (MongoDB, Express,
@@ -90,7 +90,7 @@ export const Projects = () => {
             <div className='movie-app-angular project'>
 
                 <div>
-                    <h3>Movies App Using Angular</h3>
+                    <h3>MyFlix App Using Angular</h3>
                     <div className='project-brief'>
                         <p>Its a client side web application
                             based on server-side REST API and database built with Angular and Material Desgin. This web
@@ -125,33 +125,33 @@ export const Projects = () => {
 
             <div className='chat-app project'>
 
-<div>
-    <h3>Chat App</h3>
-    <div className='project-brief'>
-        <p>It was developed with React Native, supported by Expo. The app provides users with a chat
-            interface and options to share images and their location. It uses the services of Google
-            Firestore for storing/retrieving data and for authentication. Chat mobile application also
-            provides offline functionality.</p>
-        <p>Tools and Technologies Used:</p>
-        <ul>
-            <li>React</li>
-            <li>Gifted chat</li>
-            <li>Expo</li>
-            <li>Google Firebase</li>
-            <li>IOS and Android simulators</li>
-        </ul>
-        <div className='project-btn'>
-            <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/Chat-App.git'>Github Repo</a></div>
-        </div>
-    </div>
+                <div>
+                    <h3>Chat App</h3>
+                    <div className='project-brief'>
+                        <p>It was developed with React Native, supported by Expo. The app provides users with a chat
+                            interface and options to share images and their location. It uses the services of Google
+                            Firestore for storing/retrieving data and for authentication. Chat mobile application also
+                            provides offline functionality.</p>
+                        <p>Tools and Technologies Used:</p>
+                        <ul>
+                            <li>React</li>
+                            <li>Gifted chat</li>
+                            <li>Expo</li>
+                            <li>Google Firebase</li>
+                            <li>IOS and Android simulators</li>
+                        </ul>
+                        <div className='project-btn'>
+                            <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/Chat-App.git'>Github Repo</a></div>
+                        </div>
+                    </div>
 
 
-</div>
-<div className='project-images chat-images'>
-    <img src={ChatApp} alt="movies app"></img>
-    {/* <img src={OfflineChat} width="100%" margin-left="20px" alt="movies app"></img> */}
-</div>
-</div>
+                </div>
+                <div className='project-images chat-images'>
+                    <img src={ChatApp} alt="movies app"></img>
+                    {/* <img src={OfflineChat} width="100%" margin-left="20px" alt="movies app"></img> */}
+                </div>
+            </div>
 
 
             <div className='meet-app project'>
@@ -189,7 +189,7 @@ export const Projects = () => {
             </div>
 
 
-            
+
             <div className='pokedox-app project'>
 
                 <div>

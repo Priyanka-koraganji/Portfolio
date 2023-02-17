@@ -44,8 +44,8 @@
 
 .me-auto {
   text-align: right;
-  position: relative;
-  left: 65%;
+  position: absolute;
+  right: 5%;
 }
 
 /* profile page */
@@ -503,7 +503,7 @@ h6 {
 
   .me-auto {
     position: relative;
-   left:0%;
+    left: 0%;
   }
 
   /* profile */
@@ -758,7 +758,7 @@ h6 {
 
   .me-auto {
     position: relative;
-    left:0%;
+    left: 0%;
   }
 
   /* profile */
@@ -1038,7 +1038,7 @@ h6 {
 
   .me-auto {
     position: relative;
-    left:0%;
+    left: 0%;
   }
 
   /* profile */
@@ -1303,9 +1303,9 @@ h6 {
 
 @media only screen and (max-width: 400px) {
 
-  .me-auto{
+  .me-auto {
     position: relative;
-    left:0%;
+    left: 0%;
   }
 
   .projects-page h1 {
