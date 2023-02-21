@@ -76,7 +76,7 @@ export const Projects = () => {
                         <div className='project-btn'>
                             <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/myFlix-client'>Github Repo</a></div>
                             <div><a target="_blank" rel="noopener noreferrer" href='https://priyas-moviessite.netlify.app/'>Visit Site</a></div>
-                            <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/Case-studies/movies.html'>Case Study</a> </div>
+                            <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/Case-studies/movies.html'>Details</a> </div>
                         </div>
                     </div>
 
@@ -113,6 +113,7 @@ export const Projects = () => {
                         <div className='project-btn'>
                             <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/MyFlix-Angular.git'>Github Repo</a></div>
                             <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/MyFlix-Angular/'>Visit Site</a></div>
+                            <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/Case-studies/movies-angular.html'>Details</a> </div>
                         </div>
                     </div>
 
@@ -142,6 +143,7 @@ export const Projects = () => {
                         </ul>
                         <div className='project-btn'>
                             <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/Chat-App.git'>Github Repo</a></div>
+                            <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/Case-studies/chat-app.html'>Details</a> </div>
                         </div>
                     </div>
 
@@ -179,6 +181,7 @@ export const Projects = () => {
                         <div className='project-btn'>
                             <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/meet-project'>Github Repo</a></div>
                             <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/meet-project/'>Visit Site</a></div>
+                            <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/Case-studies/meet-app.html.html'>Details</a> </div>
                         </div>
                     </div>
 
@@ -208,6 +211,7 @@ export const Projects = () => {
                         <div className='project-btn'>
                             <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/simple-js-app'>Github Repo</a></div>
                             <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/simple-js-app/'>Visit Site</a></div>
+                            <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/Case-studies/pokedex.html'>Details</a> </div>
                         </div>
                     </div>
 
@@ -216,7 +220,8 @@ export const Projects = () => {
                     <img className='poke-img' src={Pokedox} alt=""></img>
                 </div>
             </div>
-            <div className='todo project'>
+
+            {/* <div className='todo project'>
 
                 <div>
                     <h3>ToDo App</h3>
@@ -241,7 +246,7 @@ export const Projects = () => {
                 <div className='project-images'>
                     <img src={Todo} width="100%" alt=""></img>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
