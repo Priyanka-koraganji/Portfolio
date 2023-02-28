@@ -50,7 +50,7 @@
 
 /* profile page */
 .profile {
-  padding: 15vh 10vh;
+  padding: 10vh;
   text-align: center;
   line-height: 4vh;
   background-color: whitesmoke;
@@ -60,7 +60,7 @@
 }
 
 .profile-content {
-  margin-top: 10vh ;
+  margin-top: 10vh;
   width: 50%;
 }
 
