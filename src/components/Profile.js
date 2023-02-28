@@ -1,5 +1,5 @@
 import React from 'react';
-import Priya from '../img/priya.JPG';
+import Priya from '../img/priya.jpg';
 
 export const Profile = () => {
     return (
@@ -9,7 +9,7 @@ export const Profile = () => {
                 <h6>A full stack web developer who is passionate about creating interactive applications and experiences on the web.</h6>
                 <div className='fill'><a target="_blank"  rel="noopener noreferrer" href="https://drive.google.com/file/d/17UNwFsPMuRlYhVzsBUcAnK06dWuQjjox/view?usp=sharing">Checkout My Resume</a> </div>
             </div>
-            <img src={Priya} alt='Profile'></img>
+            <img src={Priya} width="400px" height="500px" alt='Profile'></img>
         </div>
     )
 }

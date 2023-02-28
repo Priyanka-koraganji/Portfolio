@@ -181,7 +181,7 @@ export const Projects = () => {
                         <div className='project-btn'>
                             <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/meet-project'>Github Repo</a></div>
                             <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/meet-project/'>Visit Site</a></div>
-                            <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/Case-studies/meet-app.html.html'>Details</a> </div>
+                            <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/Case-studies/meet-app.html'>Details</a> </div>
                         </div>
                     </div>
 
