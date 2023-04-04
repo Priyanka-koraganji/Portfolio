@@ -75,7 +75,7 @@ export const Projects = () => {
 
                         <div className='project-btn'>
                             <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/myFlix-client'>Github Repo</a></div>
-                            <div><a target="_blank" rel="noopener noreferrer" href='https://priyas-moviessite.netlify.app/'>Visit Site</a></div>
+                            <div><a target="_blank" rel="noopener noreferrer" href='https://priyas-projects.netlify.app/'>Visit Site</a></div>
                             <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/Case-studies/movies.html'>Details</a> </div>
                         </div>
                     </div>
