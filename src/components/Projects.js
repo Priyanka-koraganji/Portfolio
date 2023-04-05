@@ -59,7 +59,7 @@ export const Projects = () => {
                             React, and Node.js) stack and even Redux. This web application will provide users with access to
                             information about different
                             movies, directors, and genres. Users will be able to sign up, update their
-                            personal information, and create a list of their favorite movies. You can also check the website using login credentials Username:"Srini" and Password:"srini123" </p>
+                            personal information, and create a list of their favorite movies. You can also check the website using login credentials Username:"sitarama" and Password:"sitarama" </p>
                         <p>Checkout the Backend Code on
                             <a className="git-link" href='https://github.com/Priyanka-koraganji/movies-app'>Github</a></p>
                         <p>Tools Used:</p>
