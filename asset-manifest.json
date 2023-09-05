@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.44999150.css",
-    "main.js": "/Portfolio/static/js/main.e5b4bf09.js",
+    "main.css": "/Portfolio/static/css/main.e73e4e99.css",
+    "main.js": "/Portfolio/static/js/main.8f755296.js",
     "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/Art9.jpg": "/Portfolio/static/media/Art9.de45e5f5ab718fc0f0f0.jpg",
     "static/media/priya.jpg": "/Portfolio/static/media/priya.b9138127799cd101ef0d.jpg",
     "static/media/art1.jpg": "/Portfolio/static/media/art1.5a3ebc907788d3397cc0.jpg",
     "static/media/Angular-movies.png": "/Portfolio/static/media/Angular-movies.b33d989ab1e0e35d19f5.png",
+    "static/media/mvs-portfolio.png": "/Portfolio/static/media/mvs-portfolio.9b9691d08c7bc16e8776.png",
     "static/media/travel.jpg": "/Portfolio/static/media/travel.775c82e4e65c68804e2d.jpg",
     "static/media/movies-app.png": "/Portfolio/static/media/movies-app.939c12bdbeb4018d2382.png",
     "static/media/chat-app.png": "/Portfolio/static/media/chat-app.c26b6fc93e08acb1aad8.png",
     "static/media/backend-api.png": "/Portfolio/static/media/backend-api.55420ad2bed64d338b5c.png",
     "static/media/art2.jpg": "/Portfolio/static/media/art2.832bae3db3b387acea88.jpg",
     "static/media/art7.jpg": "/Portfolio/static/media/art7.3978fd0dd84b3e6d2087.jpg",
+    "static/media/todo-dnd.png": "/Portfolio/static/media/todo-dnd.1c46594ff3a2268b4b33.png",
     "static/media/art5.jpg": "/Portfolio/static/media/art5.c872761438aadf3ef0ed.jpg",
     "static/media/art4.jpg": "/Portfolio/static/media/art4.3c23476be3bf084ad3da.jpg",
+    "static/media/get-github.png": "/Portfolio/static/media/get-github.90073e3d42080dfaa260.png",
+    "static/media/my-water.png": "/Portfolio/static/media/my-water.a7c42b4657e1967da65b.png",
+    "static/media/notes-app.png": "/Portfolio/static/media/notes-app.e76f8e1093931999b03d.png",
     "static/media/Pokedox.png": "/Portfolio/static/media/Pokedox.3707a08401e118a8cea6.png",
     "static/media/meetupLogin.png": "/Portfolio/static/media/meetupLogin.b2d33274631f9b8cce33.png",
+    "static/media/get-quote.png": "/Portfolio/static/media/get-quote.dde1a6e7a31d09deac57.png",
     "static/media/purple-background.jpeg": "/Portfolio/static/media/purple-background.e2df881f68997c38ab23.jpeg",
     "static/media/Todo.png": "/Portfolio/static/media/Todo.86bdfe0c95ee35fc1de6.png",
     "static/media/Github copy.svg": "/Portfolio/static/media/Github copy.35d51f0e99dd775319d78e3a4b486cc1.svg",
@@ -24,12 +30,12 @@
     "index.html": "/Portfolio/index.html",
     "static/media/medium.svg": "/Portfolio/static/media/medium.15d746fc863572d6a8c6102c84add69e.svg",
     "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.cdda1ba5dc53ce6aeda2970d90ad1134.svg",
-    "main.44999150.css.map": "/Portfolio/static/css/main.44999150.css.map",
-    "main.e5b4bf09.js.map": "/Portfolio/static/js/main.e5b4bf09.js.map",
+    "main.e73e4e99.css.map": "/Portfolio/static/css/main.e73e4e99.css.map",
+    "main.8f755296.js.map": "/Portfolio/static/js/main.8f755296.js.map",
     "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44999150.css",
-    "static/js/main.e5b4bf09.js"
+    "static/css/main.e73e4e99.css",
+    "static/js/main.8f755296.js"
   ]
 }
