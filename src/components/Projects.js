@@ -244,7 +244,7 @@ export const Projects = () => {
                         </ul>
 
                         <div className='project-btn'>
-                            <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/to-do-list-app'>Github Repo</a></div>
+                            <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/msv-portfolio/'>Github Repo</a></div>
                             {/* <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/to-do-list-app/'>Visit Site</a></div> */}
                         </div>
                     </div>
