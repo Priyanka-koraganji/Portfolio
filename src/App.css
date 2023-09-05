@@ -403,7 +403,10 @@ h6 {
   opacity: 0.7;
   background-color: #dedddd;
 }
+.todo-proj-img{
+  padding:3vh;
 
+}
 .project img:hover {
   opacity: 1;
   transform: scale(1.1);

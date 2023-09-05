@@ -6,6 +6,12 @@ import Todo from '../img/Todo.png';
 import BackendAPI from '../img/backend-api.png';
 import AngularMovies from '../img/Angular-movies.png';
 import ChatApp from '../img/chat-app.png';
+import Notes from '../img/notes-app.png';
+import Water from '../img/my-water.png';
+import GetGithub from '../img/get-github.png';
+import GetQuote from '../img/get-quote.png';
+import TodoDND from '../img/todo-dnd.png';
+import MVS from '../img/mvs-portfolio.png';
 
 
 export const Projects = () => {
@@ -38,7 +44,7 @@ export const Projects = () => {
 
                         <div className='project-btn'>
                             <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/movies-app.git'>Github Repo</a></div>
-                            <div><a target="_blank" rel="noopener noreferrer" href='https://yourmoviescollection.herokuapp.com/'>Visit Site</a></div>
+                            {/* <div><a target="_blank" rel="noopener noreferrer" href='https://yourmoviescollection.herokuapp.com/'>Visit Site</a></div> */}
                         </div>
                     </div>
 
@@ -75,7 +81,7 @@ export const Projects = () => {
 
                         <div className='project-btn'>
                             <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/myFlix-client'>Github Repo</a></div>
-                            <div><a target="_blank" rel="noopener noreferrer" href='https://priyas-projects.netlify.app/'>Visit Site</a></div>
+                            {/* <div><a target="_blank" rel="noopener noreferrer" href='https://priyas-projects.netlify.app/'>Visit Site</a></div> */}
                             <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/Case-studies/movies.html'>Details</a> </div>
                         </div>
                     </div>
@@ -112,7 +118,7 @@ export const Projects = () => {
 
                         <div className='project-btn'>
                             <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/MyFlix-Angular.git'>Github Repo</a></div>
-                            <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/MyFlix-Angular/'>Visit Site</a></div>
+                            {/* <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/MyFlix-Angular/'>Visit Site</a></div> */}
                             <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/Case-studies/movies-angular.html'>Details</a> </div>
                         </div>
                     </div>
@@ -180,7 +186,7 @@ export const Projects = () => {
 
                         <div className='project-btn'>
                             <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/meet-project'>Github Repo</a></div>
-                            <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/meet-project/'>Visit Site</a></div>
+                            {/* <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/meet-project/'>Visit Site</a></div> */}
                             <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/Case-studies/meet-app.html'>Details</a> </div>
                         </div>
                     </div>
@@ -210,7 +216,7 @@ export const Projects = () => {
 
                         <div className='project-btn'>
                             <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/simple-js-app'>Github Repo</a></div>
-                            <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/simple-js-app/'>Visit Site</a></div>
+                            {/* <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/simple-js-app/'>Visit Site</a></div> */}
                             <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/Case-studies/pokedex.html'>Details</a> </div>
                         </div>
                     </div>
@@ -221,7 +227,65 @@ export const Projects = () => {
                 </div>
             </div>
 
-            {/* <div className='todo project'>
+
+            <div className='portfolio project'>
+
+                <div>
+                    <h3>MVS Portfolio</h3>
+                    <div className='project-brief'>
+                        <p>Its a Portfolio site of a photographer. Its one of my freelance works. It has difference screens, like his work, contact information, his upcoming event, and a contact page.</p>
+                        <p>Tools Used:</p>
+                        <ul>
+                            <li>React</li>
+                            <li>React-Routing</li>
+                            <li>React-Bootstrap</li>
+                            <li>CSS</li>
+                            <li>HTML</li>
+                        </ul>
+
+                        <div className='project-btn'>
+                            <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/to-do-list-app'>Github Repo</a></div>
+                            {/* <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/to-do-list-app/'>Visit Site</a></div> */}
+                        </div>
+                    </div>
+
+                </div>
+                <div className='project-images'>
+                    <img className='todo-proj-img' src={MVS} width="100%" alt=""></img>
+                </div>
+            </div>
+
+
+            <div className='todo-dnd project'>
+
+                <div>
+                    <h3>My-Todo</h3>
+                    <div className='project-brief'>
+                        <p>Its a Todo web application. You can add todo items, edit them, and drag the completed items to completed container. And also user can re-arrange the items in particular containers.</p>
+                        <p>Tools Used:</p>
+                        <ul>
+                            <li>JS</li>
+                            <li>JQuery</li>
+                            <li>CSS</li>
+                            <li>HTML</li>
+                            <li>Reactjs</li>
+                            <li>Typescript</li>
+                            <li>React DND</li>
+                        </ul>
+
+                        <div className='project-btn'>
+                            <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/to-do-list-app'>Github Repo</a></div>
+                            {/* <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/to-do-list-app/'>Visit Site</a></div> */}
+                        </div>
+                    </div>
+
+                </div>
+                <div className='project-images'>
+                    <img className='todo-proj-img' src={TodoDND} width="100%" alt=""></img>
+                </div>
+            </div>
+
+            <div className='todo project'>
 
                 <div>
                     <h3>ToDo App</h3>
@@ -238,15 +302,115 @@ export const Projects = () => {
 
                         <div className='project-btn'>
                             <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/to-do-list-app'>Github Repo</a></div>
-                            <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/to-do-list-app/'>Visit Site</a></div>
+                            {/* <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/to-do-list-app/'>Visit Site</a></div> */}
                         </div>
                     </div>
 
                 </div>
                 <div className='project-images'>
-                    <img src={Todo} width="100%" alt=""></img>
+                    <img className='todo-proj-img' src={Todo} width="100%" alt=""></img>
                 </div>
-            </div> */}
+            </div>
+
+            <div className='notes-app project'>
+
+                <div>
+                    <h3>Notes App</h3>
+                    <div className='project-brief'>
+                        <p>Its a Notes app. We can add a note which is like a sticker, and can even edit and delete the note. User can add any number of notes, edit or delete them. Also we can save the notes to local storage.</p>
+                        <p>Tools Used:</p>
+                        <ul>
+                            <li>JS</li>
+                            <li>CSS</li>
+                            <li>HTML</li>
+                        </ul>
+
+                        <div className='project-btn'>
+                            <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/to-do-list-app'>Github Repo</a></div>
+                            {/* <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/to-do-list-app/'>Visit Site</a></div> */}
+                        </div>
+                    </div>
+
+                </div>
+                <div className='project-images'>
+                    <img className='todo-proj-img' src={Notes} width="100%" alt=""></img>
+                </div>
+            </div>
+
+            <div className='my-water project'>
+
+                <div>
+                    <h3>My Water Intake</h3>
+                    <div className='project-brief'>
+                        <p>Its a app to track water intake. It just adds 250ml water by selecting each glass which adds up to 2000ml in total. This is mainly helpful for the one who want to track the water intake.</p>
+                        <p>Tools Used:</p>
+                        <ul>
+                            <li>JS</li>
+                            <li>CSS</li>
+                            <li>HTML</li>
+                        </ul>
+
+                        <div className='project-btn'>
+                            <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/my-water'>Github Repo</a></div>
+                            {/* <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/to-do-list-app/'>Visit Site</a></div> */}
+                        </div>
+                    </div>
+
+                </div>
+                <div className='project-images'>
+                    <img className='todo-proj-img' src={Water} width="100%" alt=""></img>
+                </div>
+            </div>
+
+            <div className='get-github-profiles project'>
+
+                <div>
+                    <h3>Get Github Profiles</h3>
+                    <div className='project-brief'>
+                        <p>Its an app that displays Github profile details of the users. When you enter the github user name, it displays the user details using Github API. Also it displays user latest repositories.</p>
+                        <p>Tools Used:</p>
+                        <ul>
+                            <li>JS</li>
+                            <li>CSS</li>
+                            <li>HTML</li>
+                        </ul>
+
+                        <div className='project-btn'>
+                            <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/get-github-profiles'>Github Repo</a></div>
+                            {/* <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/to-do-list-app/'>Visit Site</a></div> */}
+                        </div>
+                    </div>
+
+                </div>
+                <div className='project-images'>
+                    <img className='todo-proj-img' src={GetGithub} width="100%" alt=""></img>
+                </div>
+            </div>
+
+            <div className='get-quote project'>
+
+                <div>
+                    <h3>Get Quote</h3>
+                    <div className='project-brief'>
+                        <p>Its an app, where you get random quotes. The quotes are to keep you motivated. These are generated by using an API.</p>
+                        <p>Tools Used:</p>
+                        <ul>
+                            <li>JS</li>
+                            <li>CSS</li>
+                            <li>HTML</li>
+                        </ul>
+
+                        <div className='project-btn'>
+                            <div><a target="_blank" rel="noopener noreferrer" href='https://github.com/Priyanka-koraganji/get-github-profiles'>Github Repo</a></div>
+                            {/* <div><a target="_blank" rel="noopener noreferrer" href='https://priyanka-koraganji.github.io/to-do-list-app/'>Visit Site</a></div> */}
+                        </div>
+                    </div>
+
+                </div>
+                <div className='project-images'>
+                    <img className='todo-proj-img' src={GetQuote} width="100%" alt=""></img>
+                </div>
+            </div>
         </div>
     )
 }
